@@ -1,0 +1,16 @@
+.header{
+        box-shadow: 2px 3px 18px rgba(0,0,0,.05);
+}
+.header_btn{
+        border: 1px solid grey ;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+        
+}
+.header_outer_cont{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       width: 100%;
+}
+
