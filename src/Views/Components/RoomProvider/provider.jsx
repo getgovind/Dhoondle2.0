@@ -1,7 +1,7 @@
 import React from "react";
-import "./hompage.css";
+// import "./hompage.css";
 
-const HomePage = () => {
+const Provider = () => {
   return (
     <>
       <section className="homepagesection">
@@ -10,12 +10,12 @@ const HomePage = () => {
             <div className="col-md-5 customer_column">
                 <div >
               <p className="homepagetext m-0">
-                find <span className="homepagetextcolor">like-minded</span>
+                You are owner of
+                  {/* <span className="homepagetextcolor">like-minded</span> */}
               </p>
-              <p className="homepagetext m-0">rooms & PGs</p>
+              <p className="homepagetextcolor m-0">Rooms, Flats & PGs</p>
               <p className="shareroomtext">
-                Simple registered on Dhoondle App and Find your favourite rooms
-                & PGs
+                Simple registered on Dhoondle App and upload your Rooms,Flat and PGs Images and Details.
               </p>
               <div className="d-flex gap-3 pt-2 pe-3 ">
               <button className="header_btn">
@@ -53,4 +53,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Provider;

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.homepagetext{
+font-size: 45px;
+font-weight: 600;
+text-transform: capitalize;
+font-family: Poppins,sans-serif;
+
+}
+.homepagetextcolor{
+    color: red;
+    font-family: Poppins,sans-serif;
+    font-size: 45px;
+font-weight: 600;
+
+}
+.shareroomtext{
+    font-size: 20px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Poppins,sans-serif;
+    color: gray;
+    font-weight: 300;
+}
+.customer_row{
+    display: flex;
+    justify-content: center;
+}
+.customer_column{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.homepageimg{
+    width: 100%;
+    max-width: 380px;
+    
+}
+.homepagesection{
+    height: 100vh;
+    margin-top: 30px;
+
+}
