@@ -49,11 +49,11 @@ const Footer = () => {
             Services
           </a>
         </li>
-        <li class="menu__item">
+        {/* <li class="menu__item">
           <a class="menu__link" href="#">
             Team
           </a>
-        </li>
+        </li> */}
         <li class="menu__item">
           <a class="menu__link" href="#">
             Contact

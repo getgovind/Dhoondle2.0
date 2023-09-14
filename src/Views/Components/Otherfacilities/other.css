@@ -1,4 +1,4 @@
-.service_img_cont{
+/* /* .service_img_cont{
     padding: 20px;
     margin-top: 40px;
 
@@ -25,4 +25,9 @@
 .service_img_cont ul li img:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transform: scale(1.05);
+}
+*/ .equal-height-image {
+    width: 200px;
+    height: 200px;
+    /* Adjust the height as needed to make all images the same size */
 }

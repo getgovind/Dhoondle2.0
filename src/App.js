@@ -9,7 +9,7 @@ import Footer from "./Views/Components/Footer/footer";
 import DownloadApp from './Views/Components/GetApp/getApp';
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <Header />
       <HomePage />
       <Customer />
