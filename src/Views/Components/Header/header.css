@@ -1,16 +1,42 @@
-.header{
-        box-shadow: 2px 3px 18px rgba(0,0,0,.05);
+.header {
+        box-shadow: 2px 3px 18px rgba(0, 0, 0, .05);
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 10;
 }
-.header_btn{
-        border: 1px solid grey ;
+.header_btn {
+        font-size: .975rem;
+        line-height: 1.25rem;
+        padding: .1rem 0.5rem;
+        font-weight: 400;
+        cursor: pointer;
+        background-color: transparent;
+        background-image: none;
+        color: rgb(75 85 99);
+        opacity: 1;
+        transition-duration: .2s;
+        border: none;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        transition: transform 0.3s ease; 
         border-radius: 5px;
-        background-color: #FFFFFF;
-        
 }
-.header_outer_cont{
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       width: 100%;
+.header_btn:hover {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        transform: scale(1.1);
 }
-
+.header_outer_cont {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+}
+.appDownload {
+        background-color: rgb(211, 27, 27);
+        padding: 0.5rem 1.5rem;
+        color: white;
+        border-radius: .25rem;
+        border: none;
+        font-size: .875rem;
+        line-height: 1.25rem;
+}

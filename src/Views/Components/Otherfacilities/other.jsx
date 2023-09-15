@@ -6,20 +6,54 @@ const Otherfacility = () => {
     <>
       <section className="customer_sec">
         <div className="container">
-            <div className="row ">
-                <p className="m-0 col-md-12 homepagetext text-center "> Are You looking For? </p>
-                <p className="m-0 col-md-12 homepagetextcolor text-center "> Our Secvices </p>
+          <div className="row">
+            <div className="col-md-12 text-center">
+              <p className="homepagetext">Are You looking For?</p>
+              {/* <span className="homepagetextcolor">Our Services</span> */}
             </div>
-            <div className="service_img_cont" >
-                <ul>
-                    <li><img src="Assets\services\WhatsApp Image 2023-09-06 at 6.11.22 AM.jpeg" alt="" className="img-fluid" /></li>
-                    <li><img src="Assets\services\WhatsApp Image 2023-09-06 at 6.13.03 AM.jpeg" alt="" className="img-fluid" /></li>
-                    <li><img src="Assets\services\WhatsApp Image 2023-09-06 at 6.15.43 AM.jpeg" alt="" className="img-fluid" /></li>
-                    <li><img src="Assets\services\WhatsApp Image 2023-09-06 at 6.17.23 AM.jpeg" alt="" className="img-fluid" /></li>
-                    <li><img src="Assets\services\WhatsApp Image 2023-09-06 at 6.22.12 AM.jpeg" alt="" className="img-fluid" /></li>
-                </ul>
+          </div>
+          <div className="row service_row">
+            <div className="col-md-2 col-4 mb-3 text-center">
+              <img
+                src="Assets\services\WhatsApp Image 2023-09-06 at 6.11.22 AM.jpeg"
+                alt=""
+                className="img-fluid equal-height-image"
+                // style={{ width: "200px", height: "200px" }}
+              />
             </div>
-      
+            <div className="col-md-2 col-4 mb-3 text-center">
+              <img
+                src="Assets\services\WhatsApp_Image_2023-09-06_at_6.13.03_AM-removebg-preview.png"
+                alt=""
+                className="img-fluid equal-height-image"
+                // style={{ width: "200px", height: "200px" }}
+              />
+            </div>
+            <div className="col-md-2 col-4 mb-3 text-center">
+              <img
+                src="Assets\services\WhatsApp Image 2023-09-06 at 6.15.43 AM.jpeg"
+                alt=""
+                className="img-fluid equal-height-image"
+                // style={{ width: "200px", height: "200px" }}
+              />
+            </div>
+            <div className="col-md-2 col-4 mb-3 text-center">
+              <img
+                src="Assets\services\WhatsApp_Image_2023-09-06_at_6.17.23_AM-removebg-preview.png"
+                alt=""
+                className="img-fluid equal-height-image "
+                // style={{ width: "200px", height: "200px" }}
+              />
+            </div>
+            <div className="col-md-2 col-4 mb-3 text-center">
+              <img
+                src="Assets\services\WhatsApp_Image_2023-09-06_at_6.22.12_AM-removebg-preview.png"
+                alt=""
+                className="img-fluid equal-height-image"
+                // style={{ width: "200px", height: "200px" }}
+              />
+            </div>
+          </div>
         </div>
       </section>
     </>

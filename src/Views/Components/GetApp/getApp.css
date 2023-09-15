@@ -1,0 +1,13 @@
+.contentGetApp {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.titleGetApp {
+	width: 100%;
+}
+.DownloadApp,
+.mobAppImg {
+	width: 45%;
+}

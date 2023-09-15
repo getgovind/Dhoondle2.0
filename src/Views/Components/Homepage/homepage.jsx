@@ -17,17 +17,13 @@ const HomePage = () => {
                 Simple registered on Dhoondle App and Find your favourite rooms
                 & PGs
               </p>
-              <div className="d-flex gap-3 pt-2 pe-3 ">
+             <div className="d-flex gap-3 pt-2 justify-content-center justify-content-md-center justify-content-lg-start">
               <button className="header_btn">
                 <img
                   src="Assets\Images\header\play-storefordhoondle.png"
                   alt=""
-                  style={{
-                    width: "100%",
-                    maxWidth: "150px",
-                    height: "100%",
-                    maxHeight: "40px",
-                  }}
+                  className="download_by_google_btn"
+
                 />
               </button>
               <button className="header_btn">
