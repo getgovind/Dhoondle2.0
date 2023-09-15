@@ -1,10 +1,12 @@
 import React from "react";
 import "./other.css";
-
+  const marginBottomStyle = {
+    marginBottom: "4rem", // Add a margin of 4rem (adjust as needed)
+  };
 const Otherfacility = () => {
   return (
     <>
-      <section className="customer_sec">
+      <section className="customer_sec" style={marginBottomStyle}>
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">

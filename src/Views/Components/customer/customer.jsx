@@ -1,10 +1,12 @@
 import React from "react";
-import "./customer.css";
-
+// import "./customer.css";
+  const marginBottomStyle = {
+    marginBottom: "4rem", // Add a margin of 4rem (adjust as needed)
+  };
 const Customer = () => {
   return (
     <>
-      <section className="customer_sec">
+      <section className="customer_sec" style={marginBottomStyle}>
         <div className="container">
           <div className="row customer_row">
             <div className="col-md-6 col-sm-12 customer_column">
@@ -47,11 +49,11 @@ const Customer = () => {
                   alt=""
                   className="img-fluid first_img"
                 />
-                <img
+                {/* <img
                   src="Assets\Images\header\premium-property3dhoondle2.0.webp"
                   alt=""
                   className="img-fluid scnd_img"
-                />
+                /> */}
               </div>
             </div>
           </div>
