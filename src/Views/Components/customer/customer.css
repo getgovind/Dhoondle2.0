@@ -48,7 +48,7 @@
 /* Margin adjustments for smaller screens */
 @media (max-width: 768px) {
     .customer_sec{
-        height: 30vh;
+        height: 100vh;
     }
     .left_column_customer {
         margin-top: 30px !important;

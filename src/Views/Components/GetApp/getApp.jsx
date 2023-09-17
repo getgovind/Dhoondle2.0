@@ -8,7 +8,7 @@ const DownloadApp = () => {
     <section className="getapppagesection">
       <div className="container">
         <div className="row contentGetApp">
-          <div className="col-md-6 mb-4 mb-md-0">
+          <div className="col-md-5 customer_column">
             <div className="DownloadApp">
               <h1 className="homepagetext">
                 <span className="homepagetextcolor">Connect with us</span> from
@@ -28,7 +28,7 @@ const DownloadApp = () => {
                   <img
                     src="Assets/Images/header/play-storefordhoondle.png"
                     alt="Play Store"
-                    className="img-fluid"
+                    className="img-fluid download_by_google_btn"
                   />
                 </a>
                 <a
@@ -46,12 +46,12 @@ const DownloadApp = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-5">
             <div className="mobAppImg">
               <img
                 src="Assets/Images/header/mobileApp-removebg-preview.png"
                 alt="Mobile App"
-                className="img-fluid"
+                className="img-fluid "
               />
             </div>
           </div>
