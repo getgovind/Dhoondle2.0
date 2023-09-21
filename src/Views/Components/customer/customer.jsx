@@ -7,7 +7,7 @@ const Customer = () => {
       <section className="customer_sec">
         <div className="container">
           <div className="row customer_row">
-            <div className="col-md-5 col-sm-12 customer_column left_column_customer">
+            <div className="col-md-5 col-sm-12.,ṁ customer_column left_column_customer">
               <div>
                 <p className="homepagetext m-0">
                   Are you looking for{" "}
@@ -24,7 +24,6 @@ const Customer = () => {
                       src="Assets\Images\header\play-storefordhoondle.png"
                       alt=""
                       className="download_by_google_btn"
-                  
                     />
                   </button>
                   <button className="header_btn">

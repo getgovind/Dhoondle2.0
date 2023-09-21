@@ -20,6 +20,7 @@ const Otherfacility = () => {
                 className="img-fluid equal-height-image"
                 // style={{ width: "200px", height: "200px" }}
               />
+              <div className="ServiceName">Plumber</div>
             </div>
             <div className="col-md-2 col-4 mb-3 text-center">
               <img
@@ -28,6 +29,7 @@ const Otherfacility = () => {
                 className="img-fluid equal-height-image"
                 // style={{ width: "200px", height: "200px" }}
               />
+              <div className="ServiceName">Electrician</div>
             </div>
             <div className="col-md-2 col-4 mb-3 text-center">
               <img
@@ -36,6 +38,7 @@ const Otherfacility = () => {
                 className="img-fluid equal-height-image"
                 // style={{ width: "200px", height: "200px" }}
               />
+              <div className="ServiceName">AC Repair Service</div>
             </div>
             <div className="col-md-2 col-4 mb-3 text-center">
               <img
@@ -44,6 +47,7 @@ const Otherfacility = () => {
                 className="img-fluid equal-height-image "
                 // style={{ width: "200px", height: "200px" }}
               />
+              <div className="ServiceName">Car Painter</div>
             </div>
             <div className="col-md-2 col-4 mb-3 text-center">
               <img
@@ -52,6 +56,7 @@ const Otherfacility = () => {
                 className="img-fluid equal-height-image"
                 // style={{ width: "200px", height: "200px" }}
               />
+              <div className="ServiceName">Painter</div>
             </div>
           </div>
         </div>
