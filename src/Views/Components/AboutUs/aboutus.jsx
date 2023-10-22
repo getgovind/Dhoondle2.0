@@ -98,15 +98,15 @@ function AboutUsPage() {
           <div className="team">
             <div>
                 <div className="teamImg">
-              <img src="Assets/Images/header/deepakkkkk-removebg-preview.png" alt="" />
+                <img src="Assets/Images/header/gotam-removebg-preview-removebg-preview.png" alt="" />
                 </div>
               <p className="teamName">Mr Gauwtam Bairagi <br />(Founder & CEO)</p>
             </div>
             <div>
             <div className="teamImg">
-                <img src="Assets/Images/header/gotam-removebg-preview-removebg-preview.png" alt="" />
+              <img src="Assets/Images/header/deepakkkkk-removebg-preview.png" alt="" />
                 </div>
-                <p className="teamName">Mr Deepak J Khañgoda <br />
+                <p className="teamName" style={{marginTop:"1rem"}}>Mr Deepak J Khañgoda <br />
 (Co-Founder & CMO)</p>
             </div>
           </div>
