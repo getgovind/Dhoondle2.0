@@ -1,0 +1,13 @@
+.provider_section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:786px) {
+    .provider_section{
+    height: 100vh;
+    margin-top: 40px;
+
+    }
+}

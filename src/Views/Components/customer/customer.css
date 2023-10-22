@@ -17,7 +17,7 @@
 .customer_img_cont .scnd_img {
     width: 100%;
     max-width: 350px;
-    transform: rotate(10deg) !important;
+    transform: rotate(7deg) !important;
     position: absolute;
     left:40%;
     top: 80%;
@@ -47,6 +47,9 @@
 
 /* Margin adjustments for smaller screens */
 @media (max-width: 768px) {
+    .customer_img_cont {
+        margin-top: 20px;
+    }
     .customer_sec{
         height: 100vh;
     }

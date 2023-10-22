@@ -1,7 +1,7 @@
 import React from "react";
-import "./hompage.css";
+import "./property.css";
 
-const HomePage = () => {
+const Property = () => {
   return (
     <>
       <section className="homepagesection">
@@ -10,9 +10,9 @@ const HomePage = () => {
             <div className="col-md-5 customer_column">
                 <div >
               <p className="homepagetext m-0">
-                Find <span className="homepagetextcolor">like-minded</span>
+                Looking for Premium Properties Like? 
               </p>
-              <p className="homepagetext m-0">rooms & PGs</p>
+              <p  className="newhomepagetextcolor">Lands & Plots, Apartments, Godowns, House & Row House   </p>
               <p className="shareroomtext">
                 Simple registered on Dhoondle App and Find your favourite rooms
                 & PGs
@@ -40,11 +40,30 @@ const HomePage = () => {
             </div>
 
             <div className="col-md-5 customer_column">
-              <img
-                src="Assets\Images\header\home-imagedhoondle.webp"
+              <div className="property_img_cont" >
+            
+               <img
+                src="Assets\Images\header\HouseimageforWwb.webp"
                 alt=""
-                className="img-fluid homepageimg"
+                className="img-fluid property_img "
               />
+                <img
+                src="Assets\Images\header\Low-Rise-Apartment-Building-2.jpg"
+                alt=""
+                className="img-fluid property_img  "
+              />
+                   <img
+                src="Assets\Images\header\land-plot-building-house-aerial-view-land-field-with-pins-pin-location-housing-subdivision-residential-development-owned-sale-rent-buy-investment-home-house-expand-city-suburb_73523-7857.avif"
+                alt=""
+                className="img-fluid property_img "
+              />
+                 <img
+                src="Assets\Images\header\4d9ea6f9438dc7966fd5650ee5c7131c.jpg"
+                alt=""
+                className="img-fluid property_img "
+              />
+            
+              </div>
             </div>
           </div>
         </div>
@@ -55,4 +74,4 @@ const HomePage = () => {
 
 
 
-export default HomePage;
+export default Property;

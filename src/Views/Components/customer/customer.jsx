@@ -1,10 +1,12 @@
 import React from "react";
 import "./customer.css";
-
+  const marginBottomStyle = {
+    marginBottom: "4rem", // Add a margin of 4rem (adjust as needed)
+  };
 const Customer = () => {
   return (
     <>
-      <section className="customer_sec">
+      <section className="customer_sec" style={marginBottomStyle}>
         <div className="container">
           <div className="row customer_row">
             <div className="col-md-5 col-sm-12.,ṁ customer_column left_column_customer">

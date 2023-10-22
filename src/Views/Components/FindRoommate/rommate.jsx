@@ -1,18 +1,18 @@
 import React from "react";
-import "./hompage.css";
+import "./rommmate.css";
 
-const HomePage = () => {
+const RoomMate = () => {
   return (
     <>
-      <section className="homepagesection">
+      <section className="rommate_section d-flex align-items-center justify-content-center ">
         <div className="container">
           <div className="row customer_row" >
             <div className="col-md-5 customer_column">
                 <div >
               <p className="homepagetext m-0">
-                Find <span className="homepagetextcolor">like-minded</span>
+                Are you looking for  <span className="homepagetextcolor">Roommates</span>?
               </p>
-              <p className="homepagetext m-0">rooms & PGs</p>
+              {/* <p className="homepagetext m-0">Roommates</p> */}
               <p className="shareroomtext">
                 Simple registered on Dhoondle App and Find your favourite rooms
                 & PGs
@@ -41,7 +41,7 @@ const HomePage = () => {
 
             <div className="col-md-5 customer_column">
               <img
-                src="Assets\Images\header\home-imagedhoondle.webp"
+                src="Assets\Images\header\AdobeStock_269940647-min_30af3e94256ed8cd45100a242992fdbc_2000-550x384.jpeg"
                 alt=""
                 className="img-fluid homepageimg"
               />
@@ -55,4 +55,4 @@ const HomePage = () => {
 
 
 
-export default HomePage;
+export default RoomMate;
