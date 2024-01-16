@@ -9,6 +9,7 @@ const Otherfacility = () => {
           <div className="row">
             <div className="col-md-12 text-center">
               <p className="homepagetext">Are You looking For?</p>
+              <p className="newhomepagetextcolor">Plumber, Painter, Carpainter, Electician, AC Repair</p>
             </div>
           </div>
           <div className="row service_row">

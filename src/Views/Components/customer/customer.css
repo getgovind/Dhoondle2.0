@@ -30,11 +30,7 @@
 .left_column_customer{
     margin-top: 120px !important;
 }
-*/
-/* Center the content vertically and horizontally */
-/* Corrected CSS code with position: absolute */
 
-/* Center the content vertically and horizontally */
 .customer_sec {
     display: flex;
     justify-content: center;
@@ -44,8 +40,6 @@
 
 
 
-
-/* Margin adjustments for smaller screens */
 @media (max-width: 768px) {
     .customer_img_cont {
         margin-top: 20px;
@@ -56,31 +50,30 @@
     .left_column_customer {
         margin-top: 30px !important;
     }
-    /* Adjust the image styles for responsiveness */
+
 .customer_img_cont .first_img {
     max-width: 70%;
-    /* Ensure images are responsive */
+
     height: auto;
-    /* Maintain aspect ratio */
+   
     transform: none !important;
-    /* Remove transform properties for responsiveness */
+    
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    /* transform: rotate(-5deg) !important; */
+  
 
 }
 .customer_img_cont .scnd_img {
     position: absolute;
-    /* Position the second image absolutely */
+  
     left: 15%;
-    /* Move the image to the center horizontally */
+
     top: 110%;
-    /* Move the image to the center vertically */
+
     transform: translate(-50%, -50%);
-    /* Center the image perfectly */
+
     max-width: 70%;
-    /* Ensure images are responsive */
     height: auto;
-    /* Maintain aspect ratio */
+
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transform: rotate(-0deg) !important;
 

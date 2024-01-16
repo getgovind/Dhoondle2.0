@@ -1,5 +1,6 @@
 import React from "react";
 import "./hompage.css";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -18,7 +19,7 @@ const HomePage = () => {
                 & PGs
               </p>
               <div className="d-flex gap-3 pt-2 pe-3 ">
-              <button className="header_btn">
+             <Link to="https://play.google.com/store/apps/details?id=com.app.dhoondle"> <button className="header_btn">
                 <img
                   src="Assets\Images\header\play-storefordhoondle.png"
                   alt=""
@@ -29,12 +30,14 @@ const HomePage = () => {
                     maxHeight: "40px",
                   }}
                 />
-              </button>
-              <button className="header_btn">
+              </button></Link>
+             <button className="header_btn">
+             <Link to="">
                 <img
                   src="Assets\Images\header\app-storefordhoondle.png"
                   alt=""
                 />
+             </Link>
               </button>
             </div></div>
             </div>

@@ -13,7 +13,7 @@ const YourNavbar = () => {
               Dhoondle <sup className="reserve">TM</sup>
             </Link>
             <div className="d-flex gap-3 pt-2 pe-3 ">
-              <button className="appDownload">Download App</button>
+              <Link to="https://play.google.com/store/apps/details?id=com.app.dhoondle"><button className="appDownload">Download App</button></Link>
             </div>
           </div>
         </div>

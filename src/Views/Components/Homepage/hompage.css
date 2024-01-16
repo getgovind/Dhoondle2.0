@@ -46,7 +46,6 @@ font-weight: 600;
     
 }
 .homepagesection{
-    /* height: 100vh; */
     margin-top: 70px;
 
 }
@@ -115,7 +114,6 @@ font-weight: 600;
 .ServiceName {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: .5rem;
-    /* font-size: 1.2rem; */
 }
 
 .logo {
